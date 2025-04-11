@@ -1,6 +1,6 @@
-config SHIELD_CALDERA_LEFT
-    def_bool $(shields_list_contains,caldera_left)
+config SHIELD_RAPTAP_LEFT
+    def_bool $(shields_list_contains,Raptap_left)
 
-config SHIELD_CALDERA_RIGHT
-    def_bool $(shields_list_contains,caldera_right)
+config SHIELD_RAPTAP_RIGHT
+    def_bool $(shields_list_contains,Raptap_right)
 

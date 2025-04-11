@@ -1,14 +1,14 @@
-if SHIELD_CALDERA_LEFT
+if SHIELD_RAPTAP_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Caldera"
+    default "Raptap"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_CALDERA_LEFT || SHIELD_CALDERA_RIGHT
+if SHIELD_RAPTAP_LEFT || SHIELD_RAPTAP_RIGHT
 
 config ZMK_SPLIT
     default y
