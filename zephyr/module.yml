@@ -1,3 +1,4 @@
+name: caldera
 build:
   settings:
     board_root: .
